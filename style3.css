@@ -1,0 +1,33 @@
+.nav-bar{
+    background-color: rgb(83, 81, 81);
+    color:white;
+    padding:20px 0px;
+}
+span{
+   padding:20px;
+   cursor: pointer;
+}
+span:hover{
+    background-color: black;
+}
+.list{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: none;
+    position: absolute;
+    top:65px;
+    left:171px;
+    width:109px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+}
+.list p{
+    padding:20px;
+}
+.drop:hover+.list{
+     display: inline-block;
+}
